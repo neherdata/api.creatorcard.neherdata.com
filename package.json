@@ -1,17 +1,16 @@
 {
   "name": "api.creatorcard.neherdata.com",
-  "version": "1.0.0",
-  "description": "neherdata/api.creatorcard.neherdata.com ",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "author": "Tyler M. Neher",
-  "license": "ISC",
   "dependencies": {
-    "@walletpass/pass-js": "^6.9.1",
-    "express": "^4.18.2",
-    "passkit-generator": "^3.1.11",
-    "passkit-webservice-toolkit": "^1.0.3"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11"
   }
 }
